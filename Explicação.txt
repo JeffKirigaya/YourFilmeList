@@ -1,0 +1,13 @@
+Equipe: Jefferson Lucas da Silva Moreira
+        Felipe Feitosa Moura
+
+Primeiro eu não sei como o senhor vai abrir esse codigo no seu computador, mas se conseguir tem que abrir o formulario.php
+e o banco de dados salvo no meu pc, eu baixei o xammp e criei um banco de dados chamado formulario-jeff e uma tabela chamada usuarios
+tudo isso eu criei pelo proprio localhost/phpmyadmin e tudo estava salvo na pasta: c:\xampp\htdocs\Trabalho Filme
+
+Alem de que eu só conseguia abrir o php usando uma extensão do visual studio code que é a Open PHP/HTML/JS In Browser
+
+Não consegui fazer realmente uma lista que você adiciona o filme e salva no seu perfil, e tem salvo lá como é o intuito do site,
+mas o que deu pra fazer em uma semana (4 dias de estudo e 3 dias fazendo o site) eu botei um login com session em php para entrar no site,
+depois de logado tem a pagina principal onde tem os filmes da aba populares, alem de ter botado a api do tmdb de filmes e consegui deixar em pt-BR,
+e ter feito um css para que fique minimamente bonito o site, alem de uma barra de pesquisar funcional e um botão de logout para sair da sessão.
