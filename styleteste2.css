@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+:root{
+    --primary-color: rgb(126, 9, 9);
+    --secondary-color:  rgb(99, 14, 14);
+}
+
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: linear-gradient(rgb(155, 41, 41), rgb(177, 1, 1));
+    z-index: 99;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+}
+
+header a {
+    text-decoration: none;
+  }
+  
+
+.pesquisa1{
+    width: 400px;
+    display: flex;
+    padding-right: -100px;
+
+    
+}
+
+#barra{
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    border: 8px solid #ffffff;
+    border-radius: 15px;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    height: 200px;
+    background: url(background2.jpg);
+    background-color: gray;
+    
+}
+
+.navegacao .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navegacao .btnLogin-popup:hover {
+    background: #fff;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 2rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.movie img{
+    width: 100%;
+}
+
+.movie-info{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+    margin-top: 0;
+
+}
+
+.movie-info span{
+    background-color: rgb(88, 88, 88);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-info span.green{
+    color: lightgreen;
+}
+
+.movie-info span.orange{
+    color: orange;
+}
+
+.movie-info span.red{
+    color: red;
+}
+
+.overview{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.overview h3{
+    padding-bottom: 1rem;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+}
+
+.Nlogado u {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.Nlogado {
+    color: #fff;
+    font-size: 25px;
+}
